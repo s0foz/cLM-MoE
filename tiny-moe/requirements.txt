@@ -1,0 +1,7 @@
+# Stage 1-2: model code
+torch>=2.2          # CPU wheels are fine: pip install torch --index-url https://download.pytorch.org/whl/cpu
+numpy>=1.26
+
+# Stage 3: data (add when we get there)
+# datasets>=2.19      # HuggingFace datasets, for TinyStories / WikiText-2
+# tokenizers>=0.19    # fast BPE tokenizer training
